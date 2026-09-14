@@ -12,7 +12,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 #   КОНФИГУРАЦИЯ
 # ============================================================
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8799265440:AAG8WXYyZXum_K-zYNVxrhzz0EbIXC_Gvvg")
-WEBAPP_URL = os.getenv("WEBAPP_URL", "https://click-ivmd.onrender.com")
+WEBAPP_URL = os.getenv("WEBAPP_URL", "https://clickdk.onrender.com/")
 DB_PATH = os.getenv("DB_PATH", "/tmp/clicks.db")
 
 # ============================================================
